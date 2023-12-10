@@ -78,7 +78,7 @@ function draw() {
   
   
   if(keyDown("space")&& trex.y>161) {
-    trex.velocityY = -10;
+    trex.velocityY = -15;
   }
   
   trex.velocityY = trex.velocityY + 0.8
